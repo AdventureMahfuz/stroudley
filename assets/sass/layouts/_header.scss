@@ -1,0 +1,43 @@
+/*
+header style start
+*/
+.header-section{
+  background: #231F20;
+  padding: 15px 0;
+  .logo{
+    .logo-thumb{
+      height: 150px;
+      width: 100%;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      -ms-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+      img{
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+}
+.header-section.sticky_top{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  .logo{
+    .logo-thumb{
+      height: 100px;
+      width: 100%;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      -ms-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+    }
+  }
+}
+/*
+header style end
+*/

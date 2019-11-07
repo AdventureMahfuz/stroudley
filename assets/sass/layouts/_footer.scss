@@ -1,0 +1,28 @@
+/*footer section start*/
+footer {
+  .footer-top-section {
+    .footer-widget {
+      .social-link {
+        ul {
+          li {
+            display: inline-block;
+            a {
+              display: block;
+              margin: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom-section {
+    background: #1a1a1a;
+    p {
+      margin: 0;
+      padding: 25px 0;
+      color: #ffffff;
+    }
+  }
+}
+
+/*footer section end*/

@@ -1,0 +1,21 @@
+@import "base/_extends.scss";
+@import "base/_mixins.scss";
+@import "base/_variables.scss";
+
+
+@import "base/_default.scss";
+@import "base/_common.scss";
+
+
+@import "layouts/_header.scss";
+
+
+@import "modules/_slider";
+@import "modules/_foodmenu";
+@import "modules/_gallery";
+
+/*@import "pages/front-page";*/
+
+
+
+@import "layouts/_footer.scss";

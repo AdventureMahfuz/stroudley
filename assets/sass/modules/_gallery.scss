@@ -1,0 +1,35 @@
+/*gallery section start*/
+.gallery-section{
+  .single-gallery-item{
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 400px;
+    float: left;
+    a{
+      @extend %absolute;
+      background: #fff;
+      opacity: 0;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      -ms-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+      &:hover{
+        cursor: zoom-in;
+      }
+    }
+    &:hover a{
+      opacity: .6;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      -ms-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+    }
+  }
+}
+/*gallery section end*/
