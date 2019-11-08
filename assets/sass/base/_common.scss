@@ -31,45 +31,9 @@ a:hover {
     margin-bottom: 25px;
   }
 }
-
-/*.back_to_top i.fa {
-  position: fixed;
-  right: 25px;
-  bottom: 75px;
-  width: 35px;
-  height: 35px;
-  background: $primary;
-  text-align: center;
-  color: #fff;
-  line-height: 35px;
-  cursor: pointer;
-  display: none;
-  box-shadow: 0 0 10px #999;
-  border-radius: 50%;
-  z-index: 9999;
-}*/
-
-/*common style end*/
-
-/*
-=============================================================================
-scroll bar style for chrome
-==============================================================================
-*/
-/*::-webkit-scrollbar {
-  width: 5px;
+.google-map-section{
+  iframe{
+    width: 100%;
+    height: 500px;
+  }
 }
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px #000;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: $primary;
-}*/
-
-/*
-=============================================================================
-scroll bar style for chrome
-==============================================================================
-*/

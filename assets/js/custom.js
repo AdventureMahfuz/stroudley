@@ -1,5 +1,28 @@
 (function($) {
 $(document).ready(function(){
+    //mobile menu custom js
+    $(".mobile-menu-btn").on("click", function () {
+        $('ul.mobile-menu').css({
+            'right': '0',
+            'opacity': '1',
+            'transition': 'all .5s',
+        });
+    });
+    $("#close").on("click", function () {
+        $('ul.mobile-menu').css({
+            'right': '-100%',
+            'opacity': '0',
+            'transition': 'all .8s',
+        });
+    });
+    $("ul.mobile-menu li a").on("click", function () {
+        $('ul.mobile-menu').css({
+            'right': '-100%',
+            'opacity': '0',
+            'transition': 'all .8s',
+        });
+    });
+
     /*topbar sticky on scroll*/
     $(window).on('scroll',function() {
         //sticky menu when scroll

@@ -12,7 +12,7 @@
 /*Tablet Layout: 768px*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-section .logo .logo-thumb {
-        height: 130px;
+        height: 90px;
     }
 
     .single-slide .slider-cont .cont-style h1 {
@@ -42,12 +42,22 @@
 
 /*Mobile Layout: 320px*/
 @media only screen and (max-width: 767px) {
+    .sticky-area-mobile-view{
+        display: block;
+    }
+    .navigation-menu{
+        display: none;
+    }
+    .single-slide .slider-cont .slide-logo {
+        height: 70px;
+        width: 70px;
+    }
     .header-section .logo .logo-thumb {
-        height: 120px;
+        height: 90px;
     }
 
     .header-section.sticky_top .logo .logo-thumb {
-        height: 80px;
+        height: 70px;
     }
 
     .single-slide .slider-cont .cont-style h1 {

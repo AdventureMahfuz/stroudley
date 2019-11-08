@@ -22,14 +22,67 @@
     <![endif]-->
 </head>
 <body class="front-page">
-<!--header section start-->
-<header class="header-section">
-    <div class="logo text-center">
+<!--mobile menubar section start-->
+<div class="mobile_view">
+    <div class="mobile-menu-area">
+        <ul class="mobile-menu">
+            <li><i class="fa fa-times" id="close"></i></li>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="#!">online order</a></li>
+            <li><a class="nav-link" href="#!">Contact Us</a></li>
+            <li><a class="nav-link" href="#!">login</a></li>
+        </ul>
+    </div>
+    <div class="sticky-area-mobile-view">
         <a href="index.html">
-            <div class="logo-thumb">
-                <img src="assets/images/stroudley-logo.jpg" alt="" class="img-fluid">
+            <div class="mobile-home-btn text-center mobile-sticky-bar-common-style">
+                <i class="fa fa-home"></i>
+                <p>home</p>
             </div>
         </a>
+        <div class="mobile-user-btn text-center mobile-sticky-bar-common-style">
+            <i class="fa fa-user"></i>
+            <p>user</p>
+        </div>
+        <div class="mobile-call-btn text-center mobile-sticky-bar-common-style">
+            <i class="fa fa-phone"></i>
+            <p>call</p>
+        </div>
+        <!-- <div class="mobile-cart-btn text-center mobile-sticky-bar-common-style">
+             <i class="fa fa-shopping-cart"></i>
+             <p>order</p>
+         </div>-->
+        <div class="mobile-menu-btn text-center mobile-sticky-bar-common-style">
+            <i class="fa fa-bars"></i>
+            <p>more</p>
+        </div>
+    </div>
+</div>
+<!--mobile menubar section end-->
+<!--header section start-->
+<header class="header-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="logo text-center">
+                    <a href="index.html">
+                        <div class="logo-thumb">
+                            <img src="assets/images/stroudley-logo.jpg" alt="" class="img-fluid">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="navigation-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#!">online order</a></li>
+                        <li><a href="#!">contact us</a></li>
+                        <li><a href="#!"><span>login <i class="fa fa-lock"></i></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
 <!--header section end-->
@@ -150,6 +203,12 @@
 </section>
 <!--gallery section end-->
 
+<!--google map section start-->
+<section class="google-map-section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466725.0295464584!2d88.75215054558535!3d23.95020824970023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39febca82f6a21ed%3A0x4040980d7c6874f8!2sKushtia%20District!5e0!3m2!1sen!2sbd!4v1573222615410!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</section>
+<!--google map section end-->
+
 <!--footer section start-->
 <footer>
     <section class="footer-top-section section-padding">
@@ -193,18 +252,6 @@
     </section>
 </footer>
 <!--footer section end-->
-
-<!--back to top-->
-<!--<div class="back_to_top_area">
-    <div class="container">
-        <div class="row">
-            <div class="back_to_top">
-                <i class="fa fa-arrow-up"></i>
-            </div>
-        </div>
-    </div>
-</div>-->
-<!--back to end-->
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
